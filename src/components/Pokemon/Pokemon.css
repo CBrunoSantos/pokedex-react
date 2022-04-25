@@ -1,0 +1,54 @@
+.pokemon-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.pokemon-img{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.pokemon-topo{
+    display: flex;
+    align-items: center;
+    font-size:20px;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.pokemon-topo h3{
+    padding-right: 10px;
+    text-transform: capitalize;
+}
+
+.pokemon-tipo{
+    display: flex;
+    text-align: center;
+}
+
+.pokemon-tipo-texto{
+    padding: 5px 5px 5px 0;
+    margin: 2px 2px 2px 0;
+    border-radius: 15px;
+    text-transform: capitalize;
+    /* border: 1px solid rgb(0, 0, 0); */
+}
+
+.pokemon-footer{
+    display: flex;
+    /* justify-content:space-between; */
+    align-items:center;
+    margin-top:20px;
+}
+
+.pokemon-heart-btn{
+    height: 20px;
+    margin-left: 15px;
+}
+
+.pokemon-heart-btn img{
+    height: 100%;
+}
