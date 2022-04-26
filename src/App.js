@@ -34,7 +34,7 @@ function App() {
 
 
   return (
-    <div>
+    <div className="pokedex">
       <Navbar/>
       <Pokedex pokemons = {pokemons} loading={loading} page={page} setPage={setPage} totalPage={totalPage}/>
     </div>

@@ -9,3 +9,14 @@
 .pagination-container button{
     margin: 10px;
 }
+
+.left{
+    width: 15px;
+    height: 15px;
+    transform: rotate(180deg);
+}
+
+.right{
+    width: 15px;
+    height: 15px;
+}

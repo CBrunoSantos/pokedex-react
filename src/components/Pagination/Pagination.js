@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Pagination.css";
+import seta from '../Pagination/seta.png'
 
 const Pagination = (props) => {
   const { page, totalPage, onLeftClick, onRightClick } = props;
@@ -7,13 +8,13 @@ const Pagination = (props) => {
   return (
     <div className="pagination-container">
       <button onClick={onLeftClick}>
-        <div>volta</div>
+        <img className="left" src={seta}/>
       </button>
       <div>
         {page} de {totalPage}
       </div>
       <button onClick={onRightClick}>
-        <div>vai</div>
+      <img className="right" src={seta}/>
       </button>
     </div>
   );
